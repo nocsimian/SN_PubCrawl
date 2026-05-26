@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
-  <sys_properties action="INSERT_OR_UPDATE">
-    <sys_id>e4a6a5b3dc0646a2b6ec7824fb6f76ea</sys_id>
-    <sys_scope display_value="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_scope>
-    <sys_update_name>sys_properties_e4a6a5b3dc0646a2b6ec7824fb6f76ea</sys_update_name>
-    <choices/>
-    <description>Google Maps JavaScript API key for rendering venue maps</description>
-    <ignore_cache>false</ignore_cache>
-    <is_private>false</is_private>
-    <name>x_1838075_pub_cr_0.google_maps_api_key</name>
-    <read_roles/>
-    <suffix>google_maps_api_key</suffix>
-    <type>string</type>
-    <value/>
-    <write_roles/>
-  </sys_properties>
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Google Maps JavaScript API key for rendering venue maps</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1838075_pub_cr_0.google_maps_api_key</name>
+        <read_roles/>
+        <suffix>google_maps_api_key</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 00:32:55</sys_created_on>
+        <sys_id>e4a6a5b3dc0646a2b6ec7824fb6f76ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1838075_pub_cr_0.google_maps_api_key</sys_name>
+        <sys_package display_value="Pub Crawl" source="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Crawl">92a0fa8e8381c354749194b6feaad390</sys_scope>
+        <sys_update_name>sys_properties_e4a6a5b3dc0646a2b6ec7824fb6f76ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-26 00:32:55</sys_updated_on>
+        <type>string</type>
+        <value/>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=e4a6a5b3dc0646a2b6ec7824fb6f76ea"/>
 </record_update>

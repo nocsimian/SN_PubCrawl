@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7d1594025ad84efb96a567e67dbb2064" label="Event Venue" name="x_1838075_pub_cr_0_event_venue" type="collection">
+        <element label="Venue" mandatory="true" max_length="32" name="venue" reference="x_1838075_pub_cr_0_venue" type="reference"/>
+        <element default="10" label="Check-in Reward Points" max_length="40" name="checkin_reward_points" type="integer"/>
+        <element label="Sequence Order" max_length="40" name="sequence_order" type="integer"/>
+        <element label="Event" mandatory="true" max_length="32" name="event" reference="x_1838075_pub_cr_0_event" type="reference"/>
+        <index name="index">
+            <element name="event"/>
+        </index>
+        <index name="index2">
+            <element name="venue"/>
+        </index>
+    </element>
+</database>

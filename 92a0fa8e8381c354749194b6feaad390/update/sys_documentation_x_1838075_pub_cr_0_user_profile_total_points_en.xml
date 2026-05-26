@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="total_points" label="Total Points" language="en" table="x_1838075_pub_cr_0_user_profile">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>total_points</element>
+            <help/>
+            <hint/>
+            <label>Total Points</label>
+            <language>en</language>
+            <name>x_1838075_pub_cr_0_user_profile</name>
+            <plural>Total Points</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-26 00:32:39</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Total Points</sys_name>
+            <sys_package display_value="Pub Crawl" source="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pub Crawl">92a0fa8e8381c354749194b6feaad390</sys_scope>
+            <sys_update_name>sys_documentation_x_1838075_pub_cr_0_user_profile_total_points_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-26 00:32:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="ba47974c45dc4299a5b02dfaa6e66605" label="User Pub Crawl Profile" name="x_1838075_pub_cr_0_user_profile" type="collection">
+        <element label="Favourite Venue" max_length="32" name="favourite_venue" read_only="true" read_only_option="instance_configured" reference="x_1838075_pub_cr_0_venue" type="reference"/>
+        <element label="Total Beers Consumed" max_length="40" name="total_beers_consumed" read_only="true" read_only_option="instance_configured" type="integer"/>
+        <element label="Member Since" max_length="40" name="member_since" type="glide_date"/>
+        <element label="Total Pubs Visited" max_length="40" name="total_pubs_visited" read_only="true" read_only_option="instance_configured" type="integer"/>
+        <element display="true" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Total Points" max_length="40" name="total_points" read_only="true" read_only_option="instance_configured" type="integer"/>
+        <element label="Favourite Beer" max_length="32" name="favourite_beer" read_only="true" read_only_option="instance_configured" reference="x_1838075_pub_cr_0_beer_model" type="reference"/>
+        <index name="index">
+            <element name="favourite_beer"/>
+        </index>
+        <index name="index2">
+            <element name="favourite_venue"/>
+        </index>
+        <index name="index3" unique="true">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

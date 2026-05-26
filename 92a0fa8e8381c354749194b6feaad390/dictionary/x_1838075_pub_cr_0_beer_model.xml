@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="0c838dd280244e65b111b9a37faa3603" label="Beer Model" name="x_1838075_pub_cr_0_beer_model" type="collection">
+        <element label="Manufacturer" max_length="32" name="manufacturer" reference="core_company" type="reference"/>
+        <element display="true" label="Model Name" mandatory="true" max_length="200" name="name" type="string"/>
+        <element label="Barcode / UPC" mandatory="true" max_length="100" name="barcode" type="string"/>
+        <element label="Country of Origin" max_length="100" name="country_of_origin" type="string"/>
+        <element label="Label Image" max_length="40" name="label_image" type="image"/>
+        <element choice="1" label="Beer Style" max_length="40" name="beer_style" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Stout" sequence="3" value="stout"/>
+                <element inactive_on_update="false" label="Porter" sequence="4" value="porter"/>
+                <element inactive_on_update="false" label="Lager" sequence="0" value="lager"/>
+                <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
+                <element inactive_on_update="false" label="Sour" sequence="6" value="sour"/>
+                <element inactive_on_update="false" label="Ale" sequence="1" value="ale"/>
+                <element inactive_on_update="false" label="IPA" sequence="2" value="ipa"/>
+                <element inactive_on_update="false" label="Cider" sequence="7" value="cider"/>
+                <element inactive_on_update="false" label="Wheat" sequence="5" value="wheat"/>
+            </choice>
+        </element>
+        <element label="ABV %" max_length="20" name="abv" type="decimal"/>
+        <element label="Average Rating" max_length="20" name="average_rating" read_only="true" read_only_option="instance_configured" type="decimal"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <index name="index" unique="true">
+            <element name="barcode"/>
+        </index>
+        <index name="index2">
+            <element name="manufacturer"/>
+        </index>
+    </element>
+</database>

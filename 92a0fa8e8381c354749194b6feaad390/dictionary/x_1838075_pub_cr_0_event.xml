@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7b2c70680fec411092d893e2827136ee" label="Pub Crawl Event" name="x_1838075_pub_cr_0_event" type="collection">
+        <element display="true" label="Name" mandatory="true" max_length="200" name="name" type="string"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="End Date/Time" max_length="40" name="end_date_time" type="glide_date_time"/>
+        <element label="Banner Image" max_length="40" name="banner_image" type="image"/>
+        <element choice="1" default="draft" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Active" sequence="1" value="active"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+            </choice>
+        </element>
+        <element label="Start Date/Time" max_length="40" name="start_date_time" type="glide_date_time"/>
+        <element label="Organizer" max_length="32" name="organizer" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="organizer"/>
+        </index>
+    </element>
+</database>

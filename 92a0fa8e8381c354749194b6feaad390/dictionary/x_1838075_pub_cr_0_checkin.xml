@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="cb8854d3293447398174c308a161b8f1" label="Pub Crawl Check-in" name="x_1838075_pub_cr_0_checkin" type="collection">
+        <element label="Event" max_length="32" name="event" reference="x_1838075_pub_cr_0_event" type="reference"/>
+        <element label="Venue" mandatory="true" max_length="32" name="venue" reference="x_1838075_pub_cr_0_venue" type="reference"/>
+        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element default="javascript:gs.nowDateTime()" label="Checked In At" max_length="40" name="checked_in_at" type="glide_date_time"/>
+        <element label="Points Earned" max_length="40" name="points_earned" type="integer"/>
+        <index name="index">
+            <element name="event"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+        <index name="index3">
+            <element name="venue"/>
+        </index>
+    </element>
+</database>

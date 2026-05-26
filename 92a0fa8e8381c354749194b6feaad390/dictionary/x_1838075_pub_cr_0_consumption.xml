@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="0238be30dbae4bcb9fae2d2932602661" label="Beer Consumption Record" name="x_1838075_pub_cr_0_consumption" type="collection">
+        <element choice="1" label="Scan Source" max_length="40" name="scan_source" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Manual Entry" sequence="1" value="manual_entry"/>
+                <element inactive_on_update="false" label="Mobile Scan" sequence="0" value="mobile_scan"/>
+            </choice>
+        </element>
+        <element label="Notes" max_length="1000" name="notes" type="string"/>
+        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="User Rating" max_length="40" name="user_rating" type="integer"/>
+        <element label="Event" max_length="32" name="event" reference="x_1838075_pub_cr_0_event" type="reference"/>
+        <element label="Venue" mandatory="true" max_length="32" name="venue" reference="x_1838075_pub_cr_0_venue" type="reference"/>
+        <element label="Barcode Scanned" max_length="100" name="barcode_scanned" type="string"/>
+        <element default="javascript:gs.nowDateTime()" label="Consumed At" max_length="40" name="consumed_at" type="glide_date_time"/>
+        <element label="Beer Model" mandatory="true" max_length="32" name="beer_model" reference="x_1838075_pub_cr_0_beer_model" type="reference"/>
+        <index name="index">
+            <element name="beer_model"/>
+        </index>
+        <index name="index2">
+            <element name="event"/>
+        </index>
+        <index name="index3">
+            <element name="user"/>
+        </index>
+        <index name="index4">
+            <element name="venue"/>
+        </index>
+    </element>
+</database>
