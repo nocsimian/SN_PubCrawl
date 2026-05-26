@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+  <sys_user_role action="INSERT_OR_UPDATE">
+    <sys_id>26b02a8bd6d24a0dab4cd735ad07c69f</sys_id>
+    <sys_scope display_value="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_scope>
+    <sys_update_name>sys_user_role_26b02a8bd6d24a0dab4cd735ad07c69f</sys_update_name>
+    <assignable_by/>
+    <can_delegate>true</can_delegate>
+    <description>Participate in pub crawls, scan beers, and check in to venues</description>
+    <elevated_privilege>false</elevated_privilege>
+    <grantable>true</grantable>
+    <name>x_1838075_pub_cr_0.participant</name>
+    <scoped_admin>false</scoped_admin>
+    <suffix>participant</suffix>
+  </sys_user_role>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+  <sys_security_acl_role action="INSERT_OR_UPDATE">
+    <sys_id>6d12ed0b2d134b5e8ca5ef179216202c</sys_id>
+    <sys_scope display_value="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_scope>
+    <sys_update_name>sys_security_acl_role_6d12ed0b2d134b5e8ca5ef179216202c</sys_update_name>
+    <sys_security_acl>2a49cd3833504a328a3c709898afcdff</sys_security_acl>
+    <sys_user_role name="x_1838075_pub_cr_0.venue_manager">18506f6917e649e5ac8fe66b57f412af</sys_user_role>
+  </sys_security_acl_role>
+</record_update>

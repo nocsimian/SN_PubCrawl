@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set field="venue_type" table="x_1838075_pub_cr_0_venue">
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>762576d82f3f413aa3293dbb2d914d44</sys_id>
+      <name>x_1838075_pub_cr_0_venue</name>
+      <element>venue_type</element>
+      <label>Bar</label>
+      <value>bar</value>
+      <sequence>0</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>a509cf1e2d6d4bd29fa55ff8ba2c4aaa</sys_id>
+      <name>x_1838075_pub_cr_0_venue</name>
+      <element>venue_type</element>
+      <label>Pub</label>
+      <value>pub</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>aa66ed9377fa47eea29654d0ac91d145</sys_id>
+      <name>x_1838075_pub_cr_0_venue</name>
+      <element>venue_type</element>
+      <label>Brewery</label>
+      <value>brewery</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>577fc995059445a18061fe3bd877d9ad</sys_id>
+      <name>x_1838075_pub_cr_0_venue</name>
+      <element>venue_type</element>
+      <label>Taproom</label>
+      <value>taproom</value>
+      <sequence>3</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>fa101e25f0d749748108254ed0174bfa</sys_id>
+      <name>x_1838075_pub_cr_0_venue</name>
+      <element>venue_type</element>
+      <label>Restaurant</label>
+      <value>restaurant</value>
+      <sequence>4</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>6025b308de954677a410901ee2c6610a</sys_id>
+      <name>x_1838075_pub_cr_0_venue</name>
+      <element>venue_type</element>
+      <label>Other</label>
+      <value>other</value>
+      <sequence>5</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>bebacb601d75461291891c9d358814ff</sys_id>
+      <sys_scope display_value="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_scope>
+      <name>x_1838075_pub_cr_0_venue</name>
+      <element>venue_type</element>
+    </sys_choice_set>
+  </sys_choice_set>
+</record_update>

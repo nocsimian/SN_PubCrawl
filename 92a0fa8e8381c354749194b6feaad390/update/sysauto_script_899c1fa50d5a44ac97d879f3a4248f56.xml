@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+  <sysauto_script action="INSERT_OR_UPDATE">
+    <sys_id>899c1fa50d5a44ac97d879f3a4248f56</sys_id>
+    <sys_scope display_value="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_scope>
+    <sys_update_name>sysauto_script_899c1fa50d5a44ac97d879f3a4248f56</sys_update_name>
+    <active>true</active>
+    <advanced>false</advanced>
+    <business_calendar/>
+    <condition/>
+    <conditional>false</conditional>
+    <entered_run_end/>
+    <entered_run_start/>
+    <entered_time>1970-01-01 00:00:00</entered_time>
+    <max_drift/>
+    <name>Pub Crawl Nightly Aggregation</name>
+    <offset/>
+    <offset_type>0</offset_type>
+    <repeat_every/>
+    <run_as/>
+    <run_as_tz/>
+    <run_dayofmonth>1</run_dayofmonth>
+    <run_dayofweek>1</run_dayofweek>
+    <run_daysofweek/>
+    <run_end/>
+    <run_month>1</run_month>
+    <run_period/>
+    <run_start>2026-05-26 00:31:40</run_start>
+    <run_time>[object Object]</run_time>
+    <run_type>daily</run_type>
+    <run_weekinmonth>1</run_weekinmonth>
+    <script><![CDATA[/**
+ * Nightly Aggregation Scheduled Job
+ * Recalculates all user profile aggregates
+ */
+(function() {
+    var aggregator = new PubCrawlAggregator();
+    aggregator.recalculateAllProfiles();
+})();
+]]></script>
+    <sys_policy/>
+    <time_zone/>
+    <upgrade_safe>false</upgrade_safe>
+  </sysauto_script>
+</record_update>

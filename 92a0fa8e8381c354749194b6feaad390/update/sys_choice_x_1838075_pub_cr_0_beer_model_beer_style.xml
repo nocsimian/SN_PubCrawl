@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set field="beer_style" table="x_1838075_pub_cr_0_beer_model">
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>6c0f158d79e14df5907553fad217160b</sys_id>
+      <name>x_1838075_pub_cr_0_beer_model</name>
+      <element>beer_style</element>
+      <label>Lager</label>
+      <value>lager</value>
+      <sequence>0</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>d99bf069c113412bb04876232f340943</sys_id>
+      <name>x_1838075_pub_cr_0_beer_model</name>
+      <element>beer_style</element>
+      <label>Ale</label>
+      <value>ale</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>e2051b5d4fbc415da90b0932839267d0</sys_id>
+      <name>x_1838075_pub_cr_0_beer_model</name>
+      <element>beer_style</element>
+      <label>IPA</label>
+      <value>ipa</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>354ba81216e9455197c07923d7f2d0d3</sys_id>
+      <name>x_1838075_pub_cr_0_beer_model</name>
+      <element>beer_style</element>
+      <label>Stout</label>
+      <value>stout</value>
+      <sequence>3</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>5c686add22e94fd5b4661a57330d495e</sys_id>
+      <name>x_1838075_pub_cr_0_beer_model</name>
+      <element>beer_style</element>
+      <label>Porter</label>
+      <value>porter</value>
+      <sequence>4</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>f7b8911f654a42969bc62a8f2928c54e</sys_id>
+      <name>x_1838075_pub_cr_0_beer_model</name>
+      <element>beer_style</element>
+      <label>Wheat</label>
+      <value>wheat</value>
+      <sequence>5</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>b78bfeb554ff4a348811a22155b522b8</sys_id>
+      <name>x_1838075_pub_cr_0_beer_model</name>
+      <element>beer_style</element>
+      <label>Sour</label>
+      <value>sour</value>
+      <sequence>6</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>f0d324aa324744c3b6659be875f06dd5</sys_id>
+      <name>x_1838075_pub_cr_0_beer_model</name>
+      <element>beer_style</element>
+      <label>Cider</label>
+      <value>cider</value>
+      <sequence>7</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>a22153318c0a4243a56bebcdd2994ae3</sys_id>
+      <name>x_1838075_pub_cr_0_beer_model</name>
+      <element>beer_style</element>
+      <label>Other</label>
+      <value>other</value>
+      <sequence>8</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>72b1a897b8a040dcaaca51c4a1f4ef2f</sys_id>
+      <sys_scope display_value="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_scope>
+      <name>x_1838075_pub_cr_0_beer_model</name>
+      <element>beer_style</element>
+    </sys_choice_set>
+  </sys_choice_set>
+</record_update>

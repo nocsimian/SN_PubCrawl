@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+  <sys_script_include action="INSERT_OR_UPDATE">
+    <sys_id>5db822657302489687f8f22833808556</sys_id>
+    <sys_scope display_value="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_scope>
+    <sys_update_name>sys_script_include_5db822657302489687f8f22833808556</sys_update_name>
+    <access>public</access>
+    <active>true</active>
+    <api_name>x_1838075_pub_cr_0.PubCrawlBadgeEvaluator</api_name>
+    <caller_access/>
+    <client_callable>false</client_callable>
+    <description>Evaluates badge criteria and awards badges to users in the Pub Crawl application</description>
+    <mobile_callable>false</mobile_callable>
+    <name>PubCrawlBadgeEvaluator</name>
+    <sandbox_callable>false</sandbox_callable>
+    <script><![CDATA[/**
+ * PubCrawlBadgeEvaluator
+ * Evaluates badge criteria and awards badges to users
+ */
+var PubCrawlBadgeEvaluator = Class.create();
+
+PubCrawlBadgeEvaluator.prototype = {
+    initialize: function() {},
+
+    /**
+     * Evaluates all badge criteria for a user and awards earned badges
+     * @param {string} userSysId - The sys_id of the user
+     */
+    evaluateForUser: function(userSysId) {
+        var badges = new GlideRecord('x_1838075_pub_cr_0_badge');
+        badges.query();
+
+        while (badges.next()) {
+            var criteriaType = badges.getValue('criteria_type');
+            var criteriaValue = parseInt(badges.getValue('criteria_value'), 10) || 0;
+            var badgeSysId = badges.getUniqueValue();
+
+            // Skip if user already has this badge
+            if (this._userHasBadge(userSysId, badgeSysId)) {
+                continue;
+            }
+
+            var earned = false;
+
+            switch (criteriaType) {
+                case 'first_beer':
+                    earned = this._checkFirstBeer(userSysId);
+                    break;
+                case 'venue_count_event':
+                    earned = this._checkVenueCountEvent(userSysId, criteriaValue);
+                    break;
+                case 'style_count':
+                    earned = this._checkStyleCount(userSysId, criteriaValue);
+                    break;
+                case 'unique_venues':
+                    earned = this._checkUniqueVenues(userSysId, criteriaValue);
+                    break;
+                case 'new_models':
+                    earned = this._checkNewModels(userSysId, criteriaValue);
+                    break;
+                case 'perfect_ratings':
+                    earned = this._checkPerfectRatings(userSysId, criteriaValue);
+                    break;
+                case 'total_consumed':
+                    earned = this._checkTotalConsumed(userSysId, criteriaValue);
+                    break;
+            }
+
+            if (earned) {
+                this._awardBadge(userSysId, badgeSysId);
+            }
+        }
+    },
+
+    /**
+     * Checks if user already has a specific badge
+     */
+    _userHasBadge: function(userSysId, badgeSysId) {
+        var ub = new GlideRecord('x_1838075_pub_cr_0_user_badge');
+        ub.addQuery('user', userSysId);
+        ub.addQuery('badge', badgeSysId);
+        ub.query();
+        return ub.hasNext();
+    },
+
+    /**
+     * Check: first_beer - User has at least 1 consumption
+     */
+    _checkFirstBeer: function(userSysId) {
+        var gr = new GlideAggregate('x_1838075_pub_cr_0_consumption');
+        gr.addQuery('user', userSysId);
+        gr.addAggregate('COUNT');
+        gr.query();
+        if (gr.next()) {
+            return parseInt(gr.getAggregate('COUNT'), 10) >= 1;
+        }
+        return false;
+    },
+
+    /**
+     * Check: venue_count_event - User has N checkins in a single event
+     */
+    _checkVenueCountEvent: function(userSysId, criteriaValue) {
+        var gr = new GlideAggregate('x_1838075_pub_cr_0_checkin');
+        gr.addQuery('user', userSysId);
+        gr.addAggregate('COUNT', 'venue');
+        gr.groupBy('event');
+        gr.query();
+        while (gr.next()) {
+            var count = parseInt(gr.getAggregate('COUNT', 'venue'), 10) || 0;
+            if (count >= criteriaValue) {
+                return true;
+            }
+        }
+        return false;
+    },
+
+    /**
+     * Check: style_count - User has consumed N beers of a specific style
+     */
+    _checkStyleCount: function(userSysId, criteriaValue) {
+        var gr = new GlideAggregate('x_1838075_pub_cr_0_consumption');
+        gr.addQuery('user', userSysId);
+        gr.addAggregate('COUNT');
+        gr.groupBy('beer_model');
+        gr.query();
+
+        while (gr.next()) {
+            var beerModelId = gr.getValue('beer_model');
+            var count = parseInt(gr.getAggregate('COUNT'), 10) || 0;
+
+            // Group by beer style through the beer model
+            var bm = new GlideRecord('x_1838075_pub_cr_0_beer_model');
+            if (bm.get(beerModelId)) {
+                var style = bm.getValue('beer_style');
+                var styleCount = this._getStyleConsumptionCount(userSysId, style);
+                if (styleCount >= criteriaValue) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    },
+
+    /**
+     * Helper: Count consumption of a specific beer style for a user
+     */
+    _getStyleConsumptionCount: function(userSysId, style) {
+        // Get all beer_models of this style
+        var models = [];
+        var bm = new GlideRecord('x_1838075_pub_cr_0_beer_model');
+        bm.addQuery('beer_style', style);
+        bm.query();
+        while (bm.next()) {
+            models.push(bm.getUniqueValue());
+        }
+
+        if (models.length === 0) {
+            return 0;
+        }
+
+        var gr = new GlideAggregate('x_1838075_pub_cr_0_consumption');
+        gr.addQuery('user', userSysId);
+        gr.addQuery('beer_model', 'IN', models.join(','));
+        gr.addAggregate('COUNT');
+        gr.query();
+        if (gr.next()) {
+            return parseInt(gr.getAggregate('COUNT'), 10) || 0;
+        }
+        return 0;
+    },
+
+    /**
+     * Check: unique_venues - User has checked in at N unique venues
+     */
+    _checkUniqueVenues: function(userSysId, criteriaValue) {
+        var gr = new GlideAggregate('x_1838075_pub_cr_0_checkin');
+        gr.addQuery('user', userSysId);
+        gr.addAggregate('COUNT', 'DISTINCT', 'venue');
+        gr.query();
+        if (gr.next()) {
+            var count = parseInt(gr.getAggregate('COUNT', 'DISTINCT', 'venue'), 10) || 0;
+            return count >= criteriaValue;
+        }
+        return false;
+    },
+
+    /**
+     * Check: new_models - User has created N beer models
+     */
+    _checkNewModels: function(userSysId, criteriaValue) {
+        var gr = new GlideAggregate('x_1838075_pub_cr_0_beer_model');
+        gr.addQuery('sys_created_by', userSysId);
+        gr.addAggregate('COUNT');
+        gr.query();
+        if (gr.next()) {
+            var count = parseInt(gr.getAggregate('COUNT'), 10) || 0;
+            return count >= criteriaValue;
+        }
+        return false;
+    },
+
+    /**
+     * Check: perfect_ratings - User has given N ratings of 5
+     */
+    _checkPerfectRatings: function(userSysId, criteriaValue) {
+        var gr = new GlideAggregate('x_1838075_pub_cr_0_consumption');
+        gr.addQuery('user', userSysId);
+        gr.addQuery('user_rating', '5');
+        gr.addAggregate('COUNT');
+        gr.query();
+        if (gr.next()) {
+            var count = parseInt(gr.getAggregate('COUNT'), 10) || 0;
+            return count >= criteriaValue;
+        }
+        return false;
+    },
+
+    /**
+     * Check: total_consumed - User has consumed N total beers
+     */
+    _checkTotalConsumed: function(userSysId, criteriaValue) {
+        var gr = new GlideAggregate('x_1838075_pub_cr_0_consumption');
+        gr.addQuery('user', userSysId);
+        gr.addAggregate('COUNT');
+        gr.query();
+        if (gr.next()) {
+            var count = parseInt(gr.getAggregate('COUNT'), 10) || 0;
+            return count >= criteriaValue;
+        }
+        return false;
+    },
+
+    /**
+     * Awards a badge to a user and creates an activity feed entry
+     */
+    _awardBadge: function(userSysId, badgeSysId) {
+        var ub = new GlideRecord('x_1838075_pub_cr_0_user_badge');
+        ub.initialize();
+        ub.setValue('user', userSysId);
+        ub.setValue('badge', badgeSysId);
+        ub.setValue('earned_date', new GlideDateTime().getValue());
+        ub.insert();
+
+        // Create activity feed entry
+        var activity = new GlideRecord('x_1838075_pub_cr_0_activity_feed');
+        activity.initialize();
+        activity.setValue('user', userSysId);
+        activity.setValue('activity_type', 'badge_earned');
+        activity.setValue('badge', badgeSysId);
+        activity.setValue('message', 'Earned a new badge!');
+        activity.insert();
+    },
+
+    type: 'PubCrawlBadgeEvaluator'
+};
+]]></script>
+    <sys_policy/>
+  </sys_script_include>
+</record_update>

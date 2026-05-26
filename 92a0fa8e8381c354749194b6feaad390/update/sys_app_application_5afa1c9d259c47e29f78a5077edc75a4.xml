@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_application">
+  <sys_app_application action="INSERT_OR_UPDATE">
+    <sys_id>5afa1c9d259c47e29f78a5077edc75a4</sys_id>
+    <sys_scope display_value="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_scope>
+    <sys_update_name>sys_app_application_5afa1c9d259c47e29f78a5077edc75a4</sys_update_name>
+    <active>true</active>
+    <category/>
+    <description/>
+    <device_type>browser</device_type>
+    <hint/>
+    <name/>
+    <order>100</order>
+    <roles/>
+    <title>Pub Crawl</title>
+  </sys_app_application>
+</record_update>

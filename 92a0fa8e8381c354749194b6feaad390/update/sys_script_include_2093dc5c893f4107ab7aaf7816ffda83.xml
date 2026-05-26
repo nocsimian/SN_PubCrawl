@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+  <sys_script_include action="INSERT_OR_UPDATE">
+    <sys_id>2093dc5c893f4107ab7aaf7816ffda83</sys_id>
+    <sys_scope display_value="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_scope>
+    <sys_update_name>sys_script_include_2093dc5c893f4107ab7aaf7816ffda83</sys_update_name>
+    <access>public</access>
+    <active>true</active>
+    <api_name>x_1838075_pub_cr_0.PubCrawlRouteOptimizer</api_name>
+    <caller_access/>
+    <client_callable>false</client_callable>
+    <description>Nearest-neighbour algorithm for optimizing pub crawl venue visit order</description>
+    <mobile_callable>false</mobile_callable>
+    <name>PubCrawlRouteOptimizer</name>
+    <sandbox_callable>false</sandbox_callable>
+    <script><![CDATA[/**
+ * PubCrawlRouteOptimizer
+ * Nearest-neighbour algorithm for optimizing venue visit order
+ */
+var PubCrawlRouteOptimizer = Class.create();
+
+PubCrawlRouteOptimizer.prototype = {
+    initialize: function() {},
+
+    /**
+     * Optimizes the route for an event using nearest-neighbour algorithm
+     * @param {string} eventSysId - The sys_id of the event
+     */
+    optimizeRoute: function(eventSysId) {
+        var venues = [];
+
+        // Query all event_venues for this event
+        var ev = new GlideRecord('x_1838075_pub_cr_0_event_venue');
+        ev.addQuery('event', eventSysId);
+        ev.orderBy('sequence_order');
+        ev.query();
+
+        while (ev.next()) {
+            var venue = new GlideRecord('x_1838075_pub_cr_0_venue');
+            if (venue.get(ev.getValue('venue'))) {
+                venues.push({
+                    sysId: ev.getUniqueValue(),
+                    lat: parseFloat(venue.getValue('latitude')) || 0,
+                    lon: parseFloat(venue.getValue('longitude')) || 0
+                });
+            }
+        }
+
+        if (venues.length <= 1) {
+            return;
+        }
+
+        // Nearest-neighbour algorithm starting from the first venue
+        var visited = [venues[0]];
+        var unvisited = venues.slice(1);
+
+        while (unvisited.length > 0) {
+            var current = visited[visited.length - 1];
+            var nearestIdx = 0;
+            var nearestDist = this.calculateDistance(
+                current.lat, current.lon,
+                unvisited[0].lat, unvisited[0].lon
+            );
+
+            for (var i = 1; i < unvisited.length; i++) {
+                var dist = this.calculateDistance(
+                    current.lat, current.lon,
+                    unvisited[i].lat, unvisited[i].lon
+                );
+                if (dist < nearestDist) {
+                    nearestDist = dist;
+                    nearestIdx = i;
+                }
+            }
+
+            visited.push(unvisited[nearestIdx]);
+            unvisited.splice(nearestIdx, 1);
+        }
+
+        // Update sequence_order on each event_venue record
+        for (var j = 0; j < visited.length; j++) {
+            var record = new GlideRecord('x_1838075_pub_cr_0_event_venue');
+            if (record.get(visited[j].sysId)) {
+                record.setValue('sequence_order', j + 1);
+                record.update();
+            }
+        }
+    },
+
+    /**
+     * Calculates distance between two points using Haversine formula
+     * @param {number} lat1 - Latitude of point 1
+     * @param {number} lon1 - Longitude of point 1
+     * @param {number} lat2 - Latitude of point 2
+     * @param {number} lon2 - Longitude of point 2
+     * @returns {number} Distance in kilometers
+     */
+    calculateDistance: function(lat1, lon1, lat2, lon2) {
+        var R = 6371; // Earth's radius in kilometers
+        var dLat = this._toRadians(lat2 - lat1);
+        var dLon = this._toRadians(lon2 - lon1);
+        var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(this._toRadians(lat1)) * Math.cos(this._toRadians(lat2)) *
+                Math.sin(dLon / 2) * Math.sin(dLon / 2);
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        return R * c;
+    },
+
+    _toRadians: function(degrees) {
+        return degrees * (Math.PI / 180);
+    },
+
+    type: 'PubCrawlRouteOptimizer'
+};
+]]></script>
+    <sys_policy/>
+  </sys_script_include>
+</record_update>

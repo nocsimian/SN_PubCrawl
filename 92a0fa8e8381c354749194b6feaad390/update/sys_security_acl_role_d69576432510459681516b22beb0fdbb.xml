@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+  <sys_security_acl_role action="INSERT_OR_UPDATE">
+    <sys_id>d69576432510459681516b22beb0fdbb</sys_id>
+    <sys_scope display_value="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_scope>
+    <sys_update_name>sys_security_acl_role_d69576432510459681516b22beb0fdbb</sys_update_name>
+    <sys_security_acl>9061cdf5c8084cb98be0891a5c7c9388</sys_security_acl>
+    <sys_user_role name="x_1838075_pub_cr_0.reporter">aae957f1b21445238095392680d0cf25</sys_user_role>
+  </sys_security_acl_role>
+</record_update>

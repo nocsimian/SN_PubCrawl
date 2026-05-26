@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+  <sys_user_role_contains action="INSERT_OR_UPDATE">
+    <sys_id>0d6e9c40e4664fc0839cae38ddf52d1e</sys_id>
+    <sys_scope display_value="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_scope>
+    <sys_update_name>sys_user_role_contains_0d6e9c40e4664fc0839cae38ddf52d1e</sys_update_name>
+    <contains name="x_1838075_pub_cr_0.participant">26b02a8bd6d24a0dab4cd735ad07c69f</contains>
+    <role name="x_1838075_pub_cr_0.venue_manager">18506f6917e649e5ac8fe66b57f412af</role>
+  </sys_user_role_contains>
+</record_update>

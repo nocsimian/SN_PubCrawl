@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set field="status" table="x_1838075_pub_cr_0_event">
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>a2ddffc87690476aa49256842c761380</sys_id>
+      <name>x_1838075_pub_cr_0_event</name>
+      <element>status</element>
+      <label>Draft</label>
+      <value>draft</value>
+      <sequence>0</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>75ecf74cea7242b392cfc12e47d3a3b1</sys_id>
+      <name>x_1838075_pub_cr_0_event</name>
+      <element>status</element>
+      <label>Active</label>
+      <value>active</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>0f62096f51954edd9386ddf2c429d53d</sys_id>
+      <name>x_1838075_pub_cr_0_event</name>
+      <element>status</element>
+      <label>Completed</label>
+      <value>completed</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>b715dbed22e24caf9284d156e12f14df</sys_id>
+      <name>x_1838075_pub_cr_0_event</name>
+      <element>status</element>
+      <label>Cancelled</label>
+      <value>cancelled</value>
+      <sequence>3</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>e7c8800fe9b64e1ca9ee86f1e6ab9243</sys_id>
+      <sys_scope display_value="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_scope>
+      <name>x_1838075_pub_cr_0_event</name>
+      <element>status</element>
+    </sys_choice_set>
+  </sys_choice_set>
+</record_update>

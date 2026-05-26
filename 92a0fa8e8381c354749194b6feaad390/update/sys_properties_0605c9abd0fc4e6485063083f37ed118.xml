@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+  <sys_properties action="INSERT_OR_UPDATE">
+    <sys_id>0605c9abd0fc4e6485063083f37ed118</sys_id>
+    <sys_scope display_value="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_scope>
+    <sys_update_name>sys_properties_0605c9abd0fc4e6485063083f37ed118</sys_update_name>
+    <choices/>
+    <description>Quantity threshold for low stock alerts</description>
+    <ignore_cache>false</ignore_cache>
+    <is_private>false</is_private>
+    <name>x_1838075_pub_cr_0.low_stock_threshold</name>
+    <read_roles/>
+    <suffix>low_stock_threshold</suffix>
+    <type>integer</type>
+    <value>5</value>
+    <write_roles/>
+  </sys_properties>
+</record_update>

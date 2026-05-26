@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+  <sys_script_include action="INSERT_OR_UPDATE">
+    <sys_id>584b8cd70bd54be4bf527639259f5a2c</sys_id>
+    <sys_scope display_value="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_scope>
+    <sys_update_name>sys_script_include_584b8cd70bd54be4bf527639259f5a2c</sys_update_name>
+    <access>public</access>
+    <active>true</active>
+    <api_name>x_1838075_pub_cr_0.PubCrawlAggregator</api_name>
+    <caller_access/>
+    <client_callable>false</client_callable>
+    <description>Recalculates user profile aggregate statistics for the Pub Crawl application</description>
+    <mobile_callable>false</mobile_callable>
+    <name>PubCrawlAggregator</name>
+    <sandbox_callable>false</sandbox_callable>
+    <script><![CDATA[/**
+ * PubCrawlAggregator
+ * Recalculates user profile aggregate statistics
+ */
+var PubCrawlAggregator = Class.create();
+
+PubCrawlAggregator.prototype = {
+    initialize: function() {},
+
+    /**
+     * Recalculates aggregate stats for a single user profile
+     * @param {string} userSysId - The sys_id of the user
+     */
+    recalculateUserProfile: function(userSysId) {
+        // Count total beers consumed
+        var consumption = new GlideAggregate('x_1838075_pub_cr_0_consumption');
+        consumption.addQuery('user', userSysId);
+        consumption.addAggregate('COUNT');
+        consumption.query();
+        var totalBeers = 0;
+        if (consumption.next()) {
+            totalBeers = parseInt(consumption.getAggregate('COUNT'), 10) || 0;
+        }
+
+        // Count unique venues visited (from checkins)
+        var checkins = new GlideAggregate('x_1838075_pub_cr_0_checkin');
+        checkins.addQuery('user', userSysId);
+        checkins.addAggregate('COUNT', 'DISTINCT', 'venue');
+        checkins.query();
+        var totalPubs = 0;
+        if (checkins.next()) {
+            totalPubs = parseInt(checkins.getAggregate('COUNT', 'DISTINCT', 'venue'), 10) || 0;
+        }
+
+        // Sum total points from checkins
+        var points = new GlideAggregate('x_1838075_pub_cr_0_checkin');
+        points.addQuery('user', userSysId);
+        points.addAggregate('SUM', 'points_earned');
+        points.query();
+        var totalPoints = 0;
+        if (points.next()) {
+            totalPoints = parseInt(points.getAggregate('SUM', 'points_earned'), 10) || 0;
+        }
+
+        // Find favourite beer (most consumed)
+        var favBeer = new GlideAggregate('x_1838075_pub_cr_0_consumption');
+        favBeer.addQuery('user', userSysId);
+        favBeer.addAggregate('COUNT', 'beer_model');
+        favBeer.groupBy('beer_model');
+        favBeer.orderByAggregate('COUNT', 'beer_model');
+        favBeer.setLimit(1);
+        favBeer.query();
+        var favouriteBeer = '';
+        if (favBeer.next()) {
+            favouriteBeer = favBeer.getValue('beer_model');
+        }
+
+        // Find favourite venue (most checkins)
+        var favVenue = new GlideAggregate('x_1838075_pub_cr_0_checkin');
+        favVenue.addQuery('user', userSysId);
+        favVenue.addAggregate('COUNT', 'venue');
+        favVenue.groupBy('venue');
+        favVenue.orderByAggregate('COUNT', 'venue');
+        favVenue.setLimit(1);
+        favVenue.query();
+        var favouriteVenue = '';
+        if (favVenue.next()) {
+            favouriteVenue = favVenue.getValue('venue');
+        }
+
+        // Update user_profile record
+        var profile = new GlideRecord('x_1838075_pub_cr_0_user_profile');
+        profile.addQuery('user', userSysId);
+        profile.query();
+
+        if (profile.next()) {
+            profile.setValue('total_beers_consumed', totalBeers);
+            profile.setValue('total_pubs_visited', totalPubs);
+            profile.setValue('total_points', totalPoints);
+            if (favouriteBeer) {
+                profile.setValue('favourite_beer', favouriteBeer);
+            }
+            if (favouriteVenue) {
+                profile.setValue('favourite_venue', favouriteVenue);
+            }
+            profile.update();
+        }
+    },
+
+    /**
+     * Recalculates all user profiles
+     */
+    recalculateAllProfiles: function() {
+        var profiles = new GlideRecord('x_1838075_pub_cr_0_user_profile');
+        profiles.query();
+
+        while (profiles.next()) {
+            this.recalculateUserProfile(profiles.getValue('user'));
+        }
+    },
+
+    type: 'PubCrawlAggregator'
+};
+]]></script>
+    <sys_policy/>
+  </sys_script_include>
+</record_update>
