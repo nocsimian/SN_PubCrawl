@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="109a74ca3cf646d78ac3da928cdf43d0" label="Venue Beer Inventory" name="x_1838075_pub_cr_0_venue_inv" type="collection">
+        <element label="Price Per Unit" max_length="20" name="price_per_unit" type="decimal"/>
+        <element label="Venue" mandatory="true" max_length="32" name="venue" reference="x_1838075_pub_cr_0_venue" type="reference"/>
+        <element label="Quantity On Hand" max_length="40" name="quantity_on_hand" type="integer"/>
+        <element label="On Tap" max_length="40" name="on_tap" type="boolean"/>
+        <element label="Beer Model" mandatory="true" max_length="32" name="beer_model" reference="x_1838075_pub_cr_0_beer_model" type="reference"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <index name="index">
+            <element name="beer_model"/>
+        </index>
+        <index name="index2">
+            <element name="venue"/>
+        </index>
+    </element>
+</database>

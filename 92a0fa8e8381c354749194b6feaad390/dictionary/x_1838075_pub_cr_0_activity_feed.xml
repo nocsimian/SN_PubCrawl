@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="61238f0747f945eeb5e752d1708a0214" label="Activity Feed" name="x_1838075_pub_cr_0_activity_feed" type="collection">
+        <element label="Venue" max_length="32" name="venue" reference="x_1838075_pub_cr_0_venue" type="reference"/>
+        <element label="Badge" max_length="32" name="badge" reference="x_1838075_pub_cr_0_badge" type="reference"/>
+        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Beer Model" max_length="32" name="beer_model" reference="x_1838075_pub_cr_0_beer_model" type="reference"/>
+        <element label="Event" max_length="32" name="event" reference="x_1838075_pub_cr_0_event" type="reference"/>
+        <element choice="1" label="Activity Type" max_length="40" name="activity_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Check-in" sequence="1" value="checkin"/>
+                <element inactive_on_update="false" label="New Beer Added" sequence="3" value="new_beer"/>
+                <element inactive_on_update="false" label="Badge Earned" sequence="2" value="badge_earned"/>
+                <element inactive_on_update="false" label="Beer Scan" sequence="0" value="scan"/>
+            </choice>
+        </element>
+        <element label="Message" max_length="500" name="message" type="string"/>
+        <element default="javascript:gs.nowDateTime()" label="Created At" max_length="40" name="created_at" type="glide_date_time"/>
+        <index name="index">
+            <element name="badge"/>
+        </index>
+        <index name="index2">
+            <element name="beer_model"/>
+        </index>
+        <index name="index3">
+            <element name="event"/>
+        </index>
+        <index name="index4">
+            <element name="user"/>
+        </index>
+        <index name="index5">
+            <element name="venue"/>
+        </index>
+    </element>
+</database>

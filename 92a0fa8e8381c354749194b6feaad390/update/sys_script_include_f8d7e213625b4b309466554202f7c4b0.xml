@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1838075_pub_cr_0.PubCrawlQRGenerator</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Generates QR code URLs for venue check-in scanning in the Pub Crawl application</description>
+        <mobile_callable>false</mobile_callable>
+        <name>PubCrawlQRGenerator</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[/**
+ * PubCrawlQRGenerator
+ * Generates QR code URLs for venue check-ins
+ */
+var PubCrawlQRGenerator = Class.create();
+
+PubCrawlQRGenerator.prototype = {
+    initialize: function() {},
+
+    /**
+     * Generates a check-in URL for QR code scanning
+     * @param {string} venueSysId - The sys_id of the venue
+     * @returns {string} URL encoding the venue sys_id for QR scanning
+     */
+    generateCheckinURL: function(venueSysId) {
+        var instanceName = gs.getProperty('instance_name');
+        var baseURL = 'https://' + instanceName + '.service-now.com';
+        var checkinPath = '/api/x_1838075_pub_cr_0/checkin';
+        var url = baseURL + checkinPath + '?venue=' + encodeURIComponent(venueSysId);
+        return url;
+    },
+
+    type: 'PubCrawlQRGenerator'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 00:32:55</sys_created_on>
+        <sys_id>f8d7e213625b4b309466554202f7c4b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PubCrawlQRGenerator</sys_name>
+        <sys_package display_value="Pub Crawl" source="x_1838075_pub_cr_0">92a0fa8e8381c354749194b6feaad390</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Crawl">92a0fa8e8381c354749194b6feaad390</sys_scope>
+        <sys_update_name>sys_script_include_f8d7e213625b4b309466554202f7c4b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-26 00:32:55</sys_updated_on>
+    </sys_script_include>
+</record_update>

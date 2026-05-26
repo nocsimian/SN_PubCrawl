@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="4b3aa9ff38ae4460879e4cc9e0a9cf57" label="Badge" name="x_1838075_pub_cr_0_badge" type="collection">
+        <element label="Icon" max_length="40" name="icon" type="image"/>
+        <element label="Description" max_length="500" name="description" type="string"/>
+        <element display="true" label="Badge Name" mandatory="true" max_length="200" name="name" type="string"/>
+        <element choice="1" label="Criteria Type" max_length="40" name="criteria_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Perfect Ratings" sequence="5" value="perfect_ratings"/>
+                <element inactive_on_update="false" label="Unique Venues" sequence="3" value="unique_venues"/>
+                <element inactive_on_update="false" label="Style Count" sequence="2" value="style_count"/>
+                <element inactive_on_update="false" label="New Models Added" sequence="4" value="new_models"/>
+                <element inactive_on_update="false" label="Total Consumed" sequence="6" value="total_consumed"/>
+                <element inactive_on_update="false" label="First Beer" sequence="0" value="first_beer"/>
+                <element inactive_on_update="false" label="Venue Count in Event" sequence="1" value="venue_count_event"/>
+            </choice>
+        </element>
+        <element label="Criteria Value" max_length="40" name="criteria_value" type="integer"/>
+    </element>
+</database>

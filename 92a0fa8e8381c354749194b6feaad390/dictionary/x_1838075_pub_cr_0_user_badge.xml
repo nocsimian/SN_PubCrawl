@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="42701300078f4cae81360d634b8ff417" label="User Badge" name="x_1838075_pub_cr_0_user_badge" type="collection">
+        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element default="javascript:gs.nowDateTime()" label="Earned Date" max_length="40" name="earned_date" type="glide_date_time"/>
+        <element label="Badge" mandatory="true" max_length="32" name="badge" reference="x_1838075_pub_cr_0_badge" type="reference"/>
+        <index name="index">
+            <element name="badge"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
