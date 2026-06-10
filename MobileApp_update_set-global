@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-06-09 00:04:20">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>pcma</description>
+<inserted/>
+<name>Pub CrawlMobile App</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>2e61f6a2839d4f98749194b6feaad33e</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>218472e283dd4f98749194b6feaad3d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_applet_launcher_tab_043e122283554f98749194b6feaad364</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab"><sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE"><active>true</active><applet_launcher display_value="Pub Crawl Alpha 1.0">8c3e9aee83154f98749194b6feaad325</applet_launcher><icon display_value="Megaphone">47bcc9a2b72200108223e126de11a912</icon><label>Pub Crawl</label><sys_class_name>sys_sg_applet_launcher_tab</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:26:44</sys_created_on><sys_id>043e122283554f98749194b6feaad364</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pub Crawl</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_applet_launcher_tab_043e122283554f98749194b6feaad364</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:26:44</sys_updated_on></sys_sg_applet_launcher_tab></record_update>]]></payload>
+<payload_hash>-1640781136</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>218472e283dd4f98749194b6feaad3d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9586a0e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>Pub Crawl</target_name>
+<type>Launcher tab</type>
+<update_domain>global</update_domain>
+<update_guid>003e1222cc554f98044b7fc3efa92c68</update_guid>
+<update_guid_history>003e1222cc554f98044b7fc3efa92c68:-1640781136</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_screen_field_9451aeee83554f98749194b6feaad3f0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>banner_image</data_item_field_name><execution_script/><field_name/><hidden>false</hidden><order>1</order><record_id_field/><screen display_value="Details">5c51aeee83554f98749194b6feaad3c2</screen><screen_data_item_table>x_1838075_pub_cr_0_event</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:40:24</sys_created_on><sys_id>9451aeee83554f98749194b6feaad3f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>banner_image</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_screen_field_9451aeee83554f98749194b6feaad3f0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:40:24</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field></record_update>]]></payload>
+<payload_hash>-1180330290</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>218472e283dd4f98749194b6feaad3db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea964ed9e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>banner_image</target_name>
+<type>Screen fields</type>
+<update_domain>global</update_domain>
+<update_guid>9851aeeeb3554f98b29cc448e56fb9f4</update_guid>
+<update_guid_history>9851aeeeb3554f98b29cc448e56fb9f4:-1180330290</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_form_segment_2451eeee83554f98749194b6feaad332</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment"><sys_sg_form_segment action="INSERT_OR_UPDATE"><embedded_screen display_value="Details">5c51aeee83554f98749194b6feaad3c2</embedded_screen><form display_value="New record screen">5451eeee83554f98749194b6feaad32c</form><header_view_config/><is_sticky>false</is_sticky><order/><sys_class_name>sys_sg_form_segment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:40:24</sys_created_on><sys_id>2451eeee83554f98749194b6feaad332</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_form_segment_2451eeee83554f98749194b6feaad332</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:40:24</sys_updated_on></sys_sg_form_segment></record_update>]]></payload>
+<payload_hash>-1315415656</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>258472e283dd4f98749194b6feaad3d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea964ef660000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name/>
+<type>Record screen segment</type>
+<update_domain>global</update_domain>
+<update_guid>2851eeee29554f98fed022deca826736</update_guid>
+<update_guid_history>2851eeee29554f98fed022deca826736:-1315415656</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_view_config_element_1c7d5eea83154f98749194b6feaad328</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><creation_method/><name>image_01_element</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:28</sys_created_on><sys_id>1c7d5eea83154f98749194b6feaad328</sys_id><sys_mod_count>0</sys_mod_count><sys_name>image_01_element</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_view_config_element_1c7d5eea83154f98749194b6feaad328</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:28</sys_updated_on><view_config display_value="Pub Crawl Events Card">4d3d1aaa83154f98749194b6feaad336</view_config><view_template_slot display_value="image_01">ba1ebbaf773011109033bfeacf5a99ab</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+<payload_hash>1845061965</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>258472e283dd4f98749194b6feaad3dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9556c070000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>image_01_element</target_name>
+<type>Card element</type>
+<update_domain>global</update_domain>
+<update_guid>9c7d5eeac5154f98377cb0f6af69d02a</update_guid>
+<update_guid_history>9c7d5eeac5154f98377cb0f6af69d02a:1845061965</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_item_stream_m2m_segment_f78d962e83154f98749194b6feaad39a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment"><sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE"><item_stream display_value="Pub Crawl Events - List stream">b78d562e83154f98749194b6feaad3ee</item_stream><segment display_value="Pub Crawl Events - Screen segment">338d962e83154f98749194b6feaad395</segment><sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:59</sys_created_on><sys_id>f78d962e83154f98749194b6feaad39a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_item_stream_m2m_segment_f78d962e83154f98749194b6feaad39a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:59</sys_updated_on></sys_sg_item_stream_m2m_segment></record_update>]]></payload>
+<payload_hash>514651830</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>298472e283dd4f98749194b6feaad3d8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea955e5540000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name/>
+<type>Stream M2M segment</type>
+<update_domain>global</update_domain>
+<update_guid>7f8d962e60154f981e2b09df8eb1ef9d</update_guid>
+<update_guid_history>7f8d962e60154f981e2b09df8eb1ef9d:514651830</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_view_config_element_attribute_5c7d5eea83154f98749194b6feaad36e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute"><sys_sg_view_config_element_attribute action="INSERT_OR_UPDATE"><creation_method/><description>text_04_FieldValue</description><name display_value="FieldValue">c2eed5c2b7321010df65f6efce11a9cf</name><sys_class_name>sys_sg_view_config_element_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:28</sys_created_on><sys_id>5c7d5eea83154f98749194b6feaad36e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_view_config_element_attribute_5c7d5eea83154f98749194b6feaad36e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:28</sys_updated_on><translated_value/><value>organizer</value><view_config_element display_value="text_04_element">9c7d5eea83154f98749194b6feaad36a</view_config_element></sys_sg_view_config_element_attribute><sys_translated_text action="delete_multiple" query="documentkey=5c7d5eea83154f98749194b6feaad36e"/></record_update>]]></payload>
+<payload_hash>-1665565057</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>298472e283dd4f98749194b6feaad3dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9556cee0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>c2eed5c2b7321010df65f6efce11a9cf</target_name>
+<type>Card element attribute</type>
+<update_domain>global</update_domain>
+<update_guid>147d5eea92154f987645998523c08171</update_guid>
+<update_guid_history>147d5eea92154f987645998523c08171:-1665565057</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_navigation_tab_map_cc3e122283554f98749194b6feaad369</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_tab_map"><sys_sg_navigation_tab_map action="INSERT_OR_UPDATE"><navigation display_value="Mobile Agent">679d4f0653d033002d96ddeeff7b1279</navigation><navigation_tab display_value="Pub Crawl">043e122283554f98749194b6feaad364</navigation_tab><order>50</order><sys_class_name>sys_sg_navigation_tab_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:26:44</sys_created_on><sys_id>cc3e122283554f98749194b6feaad369</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_navigation_tab_map_cc3e122283554f98749194b6feaad369</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:45:40</sys_updated_on></sys_sg_navigation_tab_map></record_update>]]></payload>
+<payload_hash>-1561506769</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>2d8472e283dd4f98749194b6feaad3d9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea969c0be0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name/>
+<type>Navigation Tab Map</type>
+<update_domain>global</update_domain>
+<update_guid>6582aaa62f954f98a3e239eff5ebddd3</update_guid>
+<update_guid_history>6582aaa62f954f98a3e239eff5ebddd3:-1561506769,c43e122207554f98a7f955f87973736d:851396106</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_view_config_element_c87d1eea83154f98749194b6feaad3ee</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><creation_method/><name>button_01_element</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:27</sys_created_on><sys_id>c87d1eea83154f98749194b6feaad3ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>button_01_element</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_view_config_element_c87d1eea83154f98749194b6feaad3ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:27</sys_updated_on><view_config display_value="Pub Crawl Events Card">4d3d1aaa83154f98749194b6feaad336</view_config><view_template_slot display_value="button_01">be1ebbaf773011109033bfeacf5a998a</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+<payload_hash>-859948538</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>2d8472e283dd4f98749194b6feaad3de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9556ae00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>button_01_element</target_name>
+<type>Card element</type>
+<update_domain>global</update_domain>
+<update_guid>4c7d1eea9a154f9852cf734ba80e5af0</update_guid>
+<update_guid_history>4c7d1eea9a154f9852cf734ba80e5af0:-859948538</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_screen_field_1851eeee83554f98749194b6feaad313</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>name</data_item_field_name><execution_script/><field_name/><hidden>false</hidden><order>6</order><record_id_field/><screen display_value="Details">5c51aeee83554f98749194b6feaad3c2</screen><screen_data_item_table>x_1838075_pub_cr_0_event</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:40:24</sys_created_on><sys_id>1851eeee83554f98749194b6feaad313</sys_id><sys_mod_count>0</sys_mod_count><sys_name>name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_screen_field_1851eeee83554f98749194b6feaad313</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:40:24</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field></record_update>]]></payload>
+<payload_hash>1944517897</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>618472e283dd4f98749194b6feaad3da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea964ee830000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>name</target_name>
+<type>Screen fields</type>
+<update_domain>global</update_domain>
+<update_guid>5c51eeeeda554f98ffeb67717510d515</update_guid>
+<update_guid_history>5c51eeeeda554f98ffeb67717510d515:1944517897</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_view_config_element_dc7d5eea83154f98749194b6feaad330</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><creation_method/><name>text_03_element</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:28</sys_created_on><sys_id>dc7d5eea83154f98749194b6feaad330</sys_id><sys_mod_count>0</sys_mod_count><sys_name>text_03_element</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_view_config_element_dc7d5eea83154f98749194b6feaad330</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:28</sys_updated_on><view_config display_value="Pub Crawl Events Card">4d3d1aaa83154f98749194b6feaad336</view_config><view_template_slot display_value="text_03">361ebbaf773011109033bfeacf5a99ad</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+<payload_hash>-449845401</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>618472e283dd4f98749194b6feaad3df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9556c5d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>text_03_element</target_name>
+<type>Card element</type>
+<update_domain>global</update_domain>
+<update_guid>5c7d5eea34154f98908e2d778b2c8e64</update_guid>
+<update_guid_history>5c7d5eea34154f98908e2d778b2c8e64:-449845401</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_data_item_53fcdaa283154f98749194b6feaad34b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description/><group_by/><instance_relative_url_qc/><name>Pub Crawl events</name><offline_query_condition/><offline_query_condition_script/><query_condition/><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:21:29</sys_created_on><sys_id>53fcdaa283154f98749194b6feaad34b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Pub Crawl events</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_data_item_53fcdaa283154f98749194b6feaad34b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:36:47</sys_updated_on><table>x_1838075_pub_cr_0_event</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=53fcdaa283154f98749194b6feaad34b"/></record_update>]]></payload>
+<payload_hash>-537757884</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>658472e283dd4f98749194b6feaad3d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9619ea40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table>x_1838075_pub_cr_0_event</table>
+<target_name>Pub Crawl events</target_name>
+<type>Data Item</type>
+<update_domain>global</update_domain>
+<update_guid>df706aead8554f9816317062460396cb</update_guid>
+<update_guid_history>df706aead8554f9816317062460396cb:-537757884,53fc166ac9154f980e3f1f8529ba615a:369159859</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_screen_field_9851eeee83554f98749194b6feaad317</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>organizer</data_item_field_name><execution_script/><field_name/><hidden>false</hidden><order>7</order><record_id_field/><screen display_value="Details">5c51aeee83554f98749194b6feaad3c2</screen><screen_data_item_table>x_1838075_pub_cr_0_event</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:40:24</sys_created_on><sys_id>9851eeee83554f98749194b6feaad317</sys_id><sys_mod_count>0</sys_mod_count><sys_name>organizer</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_screen_field_9851eeee83554f98749194b6feaad317</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:40:24</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field></record_update>]]></payload>
+<payload_hash>-1621127366</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>658472e283dd4f98749194b6feaad3db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea964eea70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>organizer</target_name>
+<type>Screen fields</type>
+<update_domain>global</update_domain>
+<update_guid>dc51eeee29554f98c4278b857a1aef19</update_guid>
+<update_guid_history>dc51eeee29554f98c4278b857a1aef19:-1621127366</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_item_section_4c3e122283554f98749194b6feaad37b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_section"><sys_sg_item_section action="INSERT_OR_UPDATE"><access_control_type>user_roles</access_control_type><active>true</active><card_size display_value="Medium">51703cd5c7023010be78953c14c2604e</card_size><column_count/><custom_height/><custom_width/><data_item/><destination_screen display_value="Pub Crawl Events">3b8d962e83154f98749194b6feaad38e</destination_screen><display_title>true</display_title><hide_header>false</hide_header><hide_section_if_empty>false</hide_section_if_empty><hide_see_all_button>false</hide_see_all_button><is_custom_size>false</is_custom_size><is_hidden_preference_name/><max_items_display_count>15</max_items_display_count><orientation>horizontal</orientation><required_roles>x_1838075_pub_cr_0.participant</required_roles><row_count/><scrolling_type>free</scrolling_type><sys_class_name>sys_sg_item_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:26:44</sys_created_on><sys_id>4c3e122283554f98749194b6feaad37b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Pub Crawl Events</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_item_section_4c3e122283554f98749194b6feaad37b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:47:06</sys_updated_on><table/><title>Pub Crawl Events</title><visible_condition/><wide_column_count/></sys_sg_item_section></record_update>]]></payload>
+<payload_hash>-1621244805</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>698472e283dd4f98749194b6feaad3d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea96b100c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>Pub Crawl Events</target_name>
+<type>Record section</type>
+<update_domain>global</update_domain>
+<update_guid>6ed2aae656954f986d6db0918b19338e</update_guid>
+<update_guid_history>6ed2aae656954f986d6db0918b19338e:-1621244805,803e1222e9554f98634b512e19652181:-55905046</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_view_config_element_447d96ea83154f98749194b6feaad316</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><creation_method/><name>text_01_element</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:27</sys_created_on><sys_id>447d96ea83154f98749194b6feaad316</sys_id><sys_mod_count>0</sys_mod_count><sys_name>text_01_element</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_view_config_element_447d96ea83154f98749194b6feaad316</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:27</sys_updated_on><view_config display_value="Pub Crawl Events Card">4d3d1aaa83154f98749194b6feaad336</view_config><view_template_slot display_value="text_01">361ebbaf773011109033bfeacf5a9987</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+<payload_hash>-1015170303</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>698472e283dd4f98749194b6feaad3dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9556a670000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>text_01_element</target_name>
+<type>Card element</type>
+<update_domain>global</update_domain>
+<update_guid>407d1eea2d154f983ace01172ac015e7</update_guid>
+<update_guid_history>407d1eea2d154f983ace01172ac015e7:-1015170303</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_item_stream_segment_338d962e83154f98749194b6feaad395</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment"><sys_sg_item_stream_segment action="INSERT_OR_UPDATE"><empty_state/><interleave_order_direction>asc</interleave_order_direction><max_offline_rows>500</max_offline_rows><name>Pub Crawl Events - Screen segment</name><order/><screen display_value="Pub Crawl Events">3b8d962e83154f98749194b6feaad38e</screen><sys_class_name>sys_sg_item_stream_segment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:58</sys_created_on><sys_id>338d962e83154f98749194b6feaad395</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pub Crawl Events - Screen segment</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_item_stream_segment_338d962e83154f98749194b6feaad395</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:58</sys_updated_on></sys_sg_item_stream_segment></record_update>]]></payload>
+<payload_hash>-112251284</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>6d8472e283dd4f98749194b6feaad3d8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea955e4de0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>Pub Crawl Events - Screen segment</target_name>
+<type>Screen segment</type>
+<update_domain>global</update_domain>
+<update_guid>3b8d962ea6154f98a60843ea6c921598</update_guid>
+<update_guid_history>3b8d962ea6154f98a60843ea6c921598:-112251284</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_view_config_element_attribute_887d1eea83154f98749194b6feaad3f2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute"><sys_sg_view_config_element_attribute action="INSERT_OR_UPDATE"><creation_method/><description>button_01_SystemButtonType</description><name display_value="SystemButtonType">d0dcf592672031107b19b9770cf9229c</name><sys_class_name>sys_sg_view_config_element_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:27</sys_created_on><sys_id>887d1eea83154f98749194b6feaad3f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>d0dcf592672031107b19b9770cf9229c</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_view_config_element_attribute_887d1eea83154f98749194b6feaad3f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:27</sys_updated_on><translated_value/><value>Proceed</value><view_config_element display_value="button_01_element">c87d1eea83154f98749194b6feaad3ee</view_config_element></sys_sg_view_config_element_attribute><sys_translated_text action="delete_multiple" query="documentkey=887d1eea83154f98749194b6feaad3f2"/></record_update>]]></payload>
+<payload_hash>-218387432</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>6d8472e283dd4f98749194b6feaad3dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9556bb50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>d0dcf592672031107b19b9770cf9229c</target_name>
+<type>Card element attribute</type>
+<update_domain>global</update_domain>
+<update_guid>dc7d5eeac2154f983696afc14046fc26</update_guid>
+<update_guid_history>dc7d5eeac2154f983696afc14046fc26:-218387432</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_list_screen_3b8d962e83154f98749194b6feaad38e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen"><sys_sg_list_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><description>A listing of active pub Crawls</description><dynamic_prefetch_count/><empty_state/><fetch_type>on_demand</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon/><name>Pub Crawl Events</name><parameter_screen/><roles_override/><sys_class_name>sys_sg_list_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:58</sys_created_on><sys_id>3b8d962e83154f98749194b6feaad38e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pub Crawl Events</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_list_screen_3b8d962e83154f98749194b6feaad38e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:58</sys_updated_on></sys_sg_list_screen><sys_translated_text action="delete_multiple" query="documentkey=3b8d962e83154f98749194b6feaad38e"/></record_update>]]></payload>
+<payload_hash>-1861095065</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>a18472e283dd4f98749194b6feaad3d9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea955e3ed0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>Pub Crawl Events</target_name>
+<type>List screen</type>
+<update_domain>global</update_domain>
+<update_guid>738d962e71154f988c0401b268150693</update_guid>
+<update_guid_history>738d962e71154f988c0401b268150693:-1861095065</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_view_config_element_attribute_987d5eea83154f98749194b6feaad366</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute"><sys_sg_view_config_element_attribute action="INSERT_OR_UPDATE"><creation_method/><description>text_03_FieldValue</description><name display_value="FieldValue">c2eed5c2b7321010df65f6efce11a9cf</name><sys_class_name>sys_sg_view_config_element_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:28</sys_created_on><sys_id>987d5eea83154f98749194b6feaad366</sys_id><sys_mod_count>0</sys_mod_count><sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_view_config_element_attribute_987d5eea83154f98749194b6feaad366</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:28</sys_updated_on><translated_value/><value>start_date_time</value><view_config_element display_value="text_03_element">dc7d5eea83154f98749194b6feaad330</view_config_element></sys_sg_view_config_element_attribute><sys_translated_text action="delete_multiple" query="documentkey=987d5eea83154f98749194b6feaad366"/></record_update>]]></payload>
+<payload_hash>1882398700</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>a18472e283dd4f98749194b6feaad3de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9556c890000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>c2eed5c2b7321010df65f6efce11a9cf</target_name>
+<type>Card element attribute</type>
+<update_domain>global</update_domain>
+<update_guid>507d5eeaa3154f98ef389a5b04cfd269</update_guid>
+<update_guid_history>507d5eeaa3154f98ef389a5b04cfd269:1882398700</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_applet_launcher_8c3e9aee83154f98749194b6feaad325</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher"><sys_sg_applet_launcher action="INSERT_OR_UPDATE"><access_control_type>user_roles</access_control_type><active>true</active><available_offline>false</available_offline><header_button/><header_titles/><hide_empty_sections>true</hide_empty_sections><name>Pub Crawl</name><required_roles>x_1838075_pub_cr_0.participant</required_roles><search_config/><sys_class_name>sys_sg_applet_launcher</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:26:44</sys_created_on><sys_id>8c3e9aee83154f98749194b6feaad325</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pub Crawl Alpha 1.0</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_applet_launcher_8c3e9aee83154f98749194b6feaad325</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:26:44</sys_updated_on><title>Pub Crawl Alpha 1.0</title></sys_sg_applet_launcher></record_update>]]></payload>
+<payload_hash>328357888</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>a58472e283dd4f98749194b6feaad3d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea95869c10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>Pub Crawl Alpha 1.0</target_name>
+<type>Launcher screen</type>
+<update_domain>global</update_domain>
+<update_guid>443e9aeee4154f98f32078c7bfb2822a</update_guid>
+<update_guid_history>443e9aeee4154f98f32078c7bfb2822a:328357888</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_screen_field_1c51eeee83554f98749194b6feaad31b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>status</data_item_field_name><execution_script/><field_name/><hidden>false</hidden><order>8</order><record_id_field/><screen display_value="Details">5c51aeee83554f98749194b6feaad3c2</screen><screen_data_item_table>x_1838075_pub_cr_0_event</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:40:24</sys_created_on><sys_id>1c51eeee83554f98749194b6feaad31b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_screen_field_1c51eeee83554f98749194b6feaad31b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:40:24</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field></record_update>]]></payload>
+<payload_hash>-1344526105</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>a58472e283dd4f98749194b6feaad3da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea964eed50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>status</target_name>
+<type>Screen fields</type>
+<update_domain>global</update_domain>
+<update_guid>1851eeee4f554f984461badd1a27512a</update_guid>
+<update_guid_history>1851eeee4f554f984461badd1a27512a:-1344526105</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_details_screen_5c51aeee83554f98749194b6feaad3c2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen"><sys_sg_details_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><description/><dynamic_prefetch_count/><empty_state/><fetch_type>not_required</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon/><name>Details</name><roles_override/><sys_class_name>sys_sg_details_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:40:24</sys_created_on><sys_id>5c51aeee83554f98749194b6feaad3c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_details_screen_5c51aeee83554f98749194b6feaad3c2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:40:24</sys_updated_on><table>x_1838075_pub_cr_0_event</table></sys_sg_details_screen><sys_translated_text action="delete_multiple" query="documentkey=5c51aeee83554f98749194b6feaad3c2"/></record_update>]]></payload>
+<payload_hash>1829559197</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>a98472e283dd4f98749194b6feaad3d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea964ed4b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table>x_1838075_pub_cr_0_event</table>
+<target_name>Details</target_name>
+<type>Details screen</type>
+<update_domain>global</update_domain>
+<update_guid>d451aeee42554f986f755ea8ca624aee</update_guid>
+<update_guid_history>d451aeee42554f986f755ea8ca624aee:1829559197</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_user_criteria_mapping_e18226a683954f98749194b6feaad3bf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_user_criteria_mapping"><sys_sg_user_criteria_mapping action="INSERT_OR_UPDATE"><active>true</active><mobile_entity>043e122283554f98749194b6feaad364</mobile_entity><mobile_entity_table>sys_sg_applet_launcher_tab</mobile_entity_table><sys_class_name>sys_sg_user_criteria_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:45:40</sys_created_on><sys_id>e18226a683954f98749194b6feaad3bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_user_criteria_mapping_e18226a683954f98749194b6feaad3bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:45:40</sys_updated_on><user_criteria display_value="Users with 'itil' role">2f137fb2eb303010e0ef83c45e52287c</user_criteria></sys_sg_user_criteria_mapping></record_update>]]></payload>
+<payload_hash>600106776</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>a98472e283dd4f98749194b6feaad3db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea969c06c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name/>
+<type>Mobile user criteria mapping</type>
+<update_domain>global</update_domain>
+<update_guid>6d82aaa659954f98f8abd33c7ec1f9cd</update_guid>
+<update_guid_history>6d82aaa659954f98f8abd33c7ec1f9cd:600106776</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_item_stream_b78d562e83154f98749194b6feaad3ee</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream"><sys_sg_item_stream action="INSERT_OR_UPDATE"><data_item display_value="Pub Crawl events">53fcdaa283154f98749194b6feaad34b</data_item><interleaved_field>name</interleaved_field><name>Pub Crawl Events - List stream</name><sys_class_name>sys_sg_item_stream</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:58</sys_created_on><sys_id>b78d562e83154f98749194b6feaad3ee</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Pub Crawl Events - List stream</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_item_stream_b78d562e83154f98749194b6feaad3ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:36:47</sys_updated_on><table>x_1838075_pub_cr_0_event</table></sys_sg_item_stream></record_update>]]></payload>
+<payload_hash>159857400</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>ad8472e283dd4f98749194b6feaad3d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9619e390000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table>x_1838075_pub_cr_0_event</table>
+<target_name>Pub Crawl Events - List stream</target_name>
+<type>List stream</type>
+<update_domain>global</update_domain>
+<update_guid>93706aeec7154f9850a2527c3f597a22</update_guid>
+<update_guid_history>93706aeec7154f9850a2527c3f597a22:159857400,378d962e0a154f981b0699dcb6edc587:-1501757817</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_view_config_element_9c7d5eea83154f98749194b6feaad36a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><creation_method/><name>text_04_element</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:28</sys_created_on><sys_id>9c7d5eea83154f98749194b6feaad36a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>text_04_element</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_view_config_element_9c7d5eea83154f98749194b6feaad36a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:28</sys_updated_on><view_config display_value="Pub Crawl Events Card">4d3d1aaa83154f98749194b6feaad336</view_config><view_template_slot display_value="text_04">be1ebbaf773011109033bfeacf5a99ae</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+<payload_hash>1321986345</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>ad8472e283dd4f98749194b6feaad3dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9556cb40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>text_04_element</target_name>
+<type>Card element</type>
+<update_domain>global</update_domain>
+<update_guid>107d5eea6b154f985a05010c87149d6d</update_guid>
+<update_guid_history>107d5eea6b154f985a05010c87149d6d:1321986345</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_item_stream_m2m_master_item_f38d962e83154f98749194b6feaad389</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item"><sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE"><item_stream display_value="Pub Crawl Events - List stream">b78d562e83154f98749194b6feaad3ee</item_stream><master_item display_value="Pub Crawl Events - List item config">ef8d562e83154f98749194b6feaad3e8</master_item><sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:58</sys_created_on><sys_id>f38d962e83154f98749194b6feaad389</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_item_stream_m2m_master_item_f38d962e83154f98749194b6feaad389</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:58</sys_updated_on></sys_sg_item_stream_m2m_master_item></record_update>]]></payload>
+<payload_hash>-1794760506</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>e18472e283dd4f98749194b6feaad3d8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea955e3910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name/>
+<type>Stream M2M item config</type>
+<update_domain>global</update_domain>
+<update_guid>7b8d962e75154f982e5016bc317dc88c</update_guid>
+<update_guid_history>7b8d962e75154f982e5016bc317dc88c:-1794760506</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_view_config_element_attribute_407d1eea83154f98749194b6feaad3e9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute"><sys_sg_view_config_element_attribute action="INSERT_OR_UPDATE"><creation_method/><description>text_01_FieldValue</description><name display_value="FieldValue">c2eed5c2b7321010df65f6efce11a9cf</name><sys_class_name>sys_sg_view_config_element_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:27</sys_created_on><sys_id>407d1eea83154f98749194b6feaad3e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_view_config_element_attribute_407d1eea83154f98749194b6feaad3e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:27</sys_updated_on><translated_value/><value>name</value><view_config_element display_value="text_01_element">447d96ea83154f98749194b6feaad316</view_config_element></sys_sg_view_config_element_attribute><sys_translated_text action="delete_multiple" query="documentkey=407d1eea83154f98749194b6feaad3e9"/></record_update>]]></payload>
+<payload_hash>-680388692</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>e18472e283dd4f98749194b6feaad3dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9556ab30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>c2eed5c2b7321010df65f6efce11a9cf</target_name>
+<type>Card element attribute</type>
+<update_domain>global</update_domain>
+<update_guid>c87d1eeae6154f986b50130f1d0091ec</update_guid>
+<update_guid_history>c87d1eeae6154f986b50130f1d0091ec:-680388692</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_master_item_ef8d562e83154f98749194b6feaad3e8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item"><sys_sg_master_item action="INSERT_OR_UPDATE"><condition_order/><datasource_table>x_1838075_pub_cr_0_event</datasource_table><datasource_table_condition/><embedded_screen/><item_view/><name>Pub Crawl Events - List item config</name><sys_class_name>sys_sg_master_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:57</sys_created_on><sys_id>ef8d562e83154f98749194b6feaad3e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pub Crawl Events - List item config</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_master_item_ef8d562e83154f98749194b6feaad3e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:57</sys_updated_on><use_view_config>true</use_view_config><view_config display_value="Pub Crawl Events Card">4d3d1aaa83154f98749194b6feaad336</view_config></sys_sg_master_item></record_update>]]></payload>
+<payload_hash>346179986</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>e58472e283dd4f98749194b6feaad3d9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea955e2fe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>Pub Crawl Events - List item config</target_name>
+<type>List item config</type>
+<update_domain>global</update_domain>
+<update_guid>e78d562e03154f98fbfe486fed493bec</update_guid>
+<update_guid_history>e78d562e03154f98fbfe486fed493bec:346179986</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_view_config_element_attribute_d87d5eea83154f98749194b6feaad32c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute"><sys_sg_view_config_element_attribute action="INSERT_OR_UPDATE"><creation_method/><description>image_01_FieldValue</description><name display_value="FieldValue">c2eed5c2b7321010df65f6efce11a9cf</name><sys_class_name>sys_sg_view_config_element_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:23:28</sys_created_on><sys_id>d87d5eea83154f98749194b6feaad32c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_view_config_element_attribute_d87d5eea83154f98749194b6feaad32c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:23:28</sys_updated_on><translated_value/><value>banner_image</value><view_config_element display_value="image_01_element">1c7d5eea83154f98749194b6feaad328</view_config_element></sys_sg_view_config_element_attribute><sys_translated_text action="delete_multiple" query="documentkey=d87d5eea83154f98749194b6feaad32c"/></record_update>]]></payload>
+<payload_hash>1567591581</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>e58472e283dd4f98749194b6feaad3de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9556c340000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>c2eed5c2b7321010df65f6efce11a9cf</target_name>
+<type>Card element attribute</type>
+<update_domain>global</update_domain>
+<update_guid>907d5eea8f154f9817f6b2638508002f</update_guid>
+<update_guid_history>907d5eea8f154f9817f6b2638508002f:1567591581</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_applet_launcher_m2m_section_403e122283554f98749194b6feaad383</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section"><sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE"><applet_launcher display_value="Pub Crawl Alpha 1.0">8c3e9aee83154f98749194b6feaad325</applet_launcher><order/><section display_value="Pub Crawl Events">4c3e122283554f98749194b6feaad37b</section><sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:26:44</sys_created_on><sys_id>403e122283554f98749194b6feaad383</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_applet_launcher_m2m_section_403e122283554f98749194b6feaad383</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:26:44</sys_updated_on></sys_sg_applet_launcher_m2m_section></record_update>]]></payload>
+<payload_hash>1420630922</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>e98472e283dd4f98749194b6feaad3d5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9586af20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name/>
+<type>Launcher section mapping</type>
+<update_domain>global</update_domain>
+<update_guid>c43e12228c554f98356cd53c6d507886</update_guid>
+<update_guid_history>c43e12228c554f98356cd53c6d507886:1420630922</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_screen_field_5851aeee83554f98749194b6feaad3f6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>sys_created_on</data_item_field_name><execution_script/><field_name/><hidden>false</hidden><order>2</order><record_id_field/><screen display_value="Details">5c51aeee83554f98749194b6feaad3c2</screen><screen_data_item_table>x_1838075_pub_cr_0_event</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:40:24</sys_created_on><sys_id>5851aeee83554f98749194b6feaad3f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_created_on</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_screen_field_5851aeee83554f98749194b6feaad3f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:40:24</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field></record_update>]]></payload>
+<payload_hash>-587350675</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>e98472e283dd4f98749194b6feaad3da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea964edd00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>sys_created_on</target_name>
+<type>Screen fields</type>
+<update_domain>global</update_domain>
+<update_guid>5451eeeeb5554f985f667fa7ae216a05</update_guid>
+<update_guid_history>5451eeeeb5554f985f667fa7ae216a05:-587350675</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_form_screen_5451eeee83554f98749194b6feaad32c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen"><sys_sg_form_screen action="INSERT_OR_UPDATE"><alert/><available_offline>false</available_offline><data_item/><description/><dynamic_prefetch_count/><empty_state/><fetch_type>not_required</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon/><item_view/><name>New record screen</name><override_context_with_data_item>false</override_context_with_data_item><parameter_screen/><roles_override/><segments_height>medium</segments_height><segments_min_width>medium</segments_min_width><sys_class_name>sys_sg_form_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:40:24</sys_created_on><sys_id>5451eeee83554f98749194b6feaad32c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New record screen</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_form_screen_5451eeee83554f98749194b6feaad32c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:40:24</sys_updated_on><table/><use_view_config>true</use_view_config><view_config display_value="Pub Crawl Events Card">4d3d1aaa83154f98749194b6feaad336</view_config></sys_sg_form_screen><sys_translated_text action="delete_multiple" query="documentkey=5451eeee83554f98749194b6feaad32c"/></record_update>]]></payload>
+<payload_hash>1747939049</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>ed8472e283dd4f98749194b6feaad3d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea964ef1a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table/>
+<target_name>New record screen</target_name>
+<type>Record screen</type>
+<update_domain>global</update_domain>
+<update_guid>6451eeee53554f98077520bc7f4fb630</update_guid>
+<update_guid_history>6451eeee53554f98077520bc7f4fb630:1747939049</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_sg_view_config_4d3d1aaa83154f98749194b6feaad336</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config"><sys_sg_view_config action="INSERT_OR_UPDATE"><active>true</active><advanced>false</advanced><creation_method/><description>Active events</description><name>Pub Crawl Events Card</name><scratchpad_script/><sys_class_name>sys_sg_view_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 22:22:26</sys_created_on><sys_id>4d3d1aaa83154f98749194b6feaad336</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pub Crawl Events Card</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_sg_view_config_4d3d1aaa83154f98749194b6feaad336</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 22:22:26</sys_updated_on><table>x_1838075_pub_cr_0_event</table><template display_value="Favorites Template Polaris">f61ebbaf773011109033bfeacf5a9984</template></sys_sg_view_config><sys_translated_text action="delete_multiple" query="documentkey=4d3d1aaa83154f98749194b6feaad336"/></record_update>]]></payload>
+<payload_hash>1701717267</payload_hash>
+<remote_update_set display_value="Pub CrawlMobile App">218472e283dd4f98749194b6feaad3d5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-06-09 00:04:19</sys_created_on>
+<sys_id>ed8472e283dd4f98749194b6feaad3db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ea9547a1a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-06-09 00:04:19</sys_updated_on>
+<table>x_1838075_pub_cr_0_event</table>
+<target_name>Pub Crawl Events Card</target_name>
+<type>Card</type>
+<update_domain>global</update_domain>
+<update_guid>8d3d1aaa03154f98d0af35216354d03a</update_guid>
+<update_guid_history>8d3d1aaa03154f98d0af35216354d03a:1701717267</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
